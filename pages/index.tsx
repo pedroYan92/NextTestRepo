@@ -1,13 +1,10 @@
 import type { NextPage } from "next";
+import { Navbar } from "../components/Navbar";
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <div className="bg-slate-100">
-        <div className="h-11 w-9/12 mx-auto bg-slate-400 text-center text-red-800">
-          Tailwind CSS GUYS
-        </div>
-      </div>
+    <div className="w-full">
+      <Navbar />
     </div>
   );
 };
